@@ -19,7 +19,7 @@ RUN mkdir /projects ${HOME} && \
       chmod -R g+rwX ${f}; \
     done
 
-RUN apk --no-cache add openjdk11 --repository=http://dl-cdn.alpinelinux.org/alpine/edge/community \
+RUN apk --no-cache add openjdk11 maven --repository=http://dl-cdn.alpinelinux.org/alpine/edge/community \
     && apk add procps nss
 ENV JAVA_HOME /usr/lib/jvm/default-jvm/
 ADD etc/before-start.sh /before-start.sh

@@ -1,5 +1,5 @@
-# che-sidecar-java
-Eclipse Che Sidecar container for java tooling
+# che-sidecar-maven
+Eclipse Che Sidecar container for java tooling and maven, extends [che-sidecar-java](https://github.com/che-dockerfiles/che-sidecar-java)
 
 This sidecar image is used to run Che Plug-ins in dedicated containers
 
